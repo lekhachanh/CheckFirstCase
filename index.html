@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function UpperCase(string) {
+        dieuKien = /^[A-Z]/;
+        if (dieuKien.test(string)) {
+            alert("ký tự đầu tiên là chữ hoa!");
+        }else {
+            alert("ký tự đầu tiên là chữ thường");
+        }
+    }
+    UpperCase ("LcCD");
+    UpperCase ('Nguyen van Nam');
+    UpperCase('nGUYEN VAN NAM');
+</script>
+</body>
+</html>
